@@ -1,0 +1,19 @@
+# Large model weights & TensorFlow checkpoints (>100MB GitHub limit)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.zip
+gpt2/
+
+# Blank / temporary plots
+loss-plot.pdf
+cell138_plot.png
+
+# Python & Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
